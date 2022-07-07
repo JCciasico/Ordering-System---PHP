@@ -1,0 +1,108 @@
+body,html{
+    height: 100%;
+    margin: 0;
+}
+.home-screen{
+    background-image: url("../images/receipt-burgerwallpaper.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+}
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+.image-responsive{
+    width: 100%;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.nav-responsive li a{
+    font-size: 1vw;
+}
+.image-responsive{
+    width: 100%;
+}
+.nav-container{
+    border: none;
+    background-color: white; 
+    height: 50px;
+}
+.logo{
+    float: left;
+}
+.logo img{
+    margin-top: -6%;
+}
+.nav-list{
+    line-height: 50px;
+}
+.nav-list ul{
+    list-style-type: none;
+}
+.nav-list ul li{
+    display: inline;
+    padding: 1.2%;
+}
+.nav-list ul li a{
+    color: #ff7f50;
+    font-weight: bold;
+    text-decoration: none;
+}
+.nav-list ul li a:hover{
+    color: #ff6348;
+}
+
+
+.home-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.home-container h1{
+    font-size: 4vw;
+    color: #ff6348;
+    text-shadow: 5px 5px 5px black, 5px 5px 5px black;
+    text-align: center;
+}
+.home-container h3{
+    margin-top: 2%;
+    font-size: 2vw;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 5px black, 0 0 5px black;
+}
+.button{
+    margin-top: 10%;
+    width: 45%;
+    height: 55px;
+    background-color: #ff7f50;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    border: 1px solid #2f3542;
+    color: #dfe4ea;
+    text-decoration: none;
+}
+.button:hover{
+    background-color: #ff6348;
+}
+a{
+    cursor: pointer;
+}
