@@ -12,7 +12,7 @@
     <section class="header">
             <div class="container">
                 <div class="header text-center">
-                    <a href="admin index.php" id="admin-title"><h2>Admin Page</h2></a>
+                    <a href="admin index.php" id="admin-title"><h2>Admin Panel</h2></a>
                 </div>
             </div>
     </section>
