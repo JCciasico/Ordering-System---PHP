@@ -18,10 +18,7 @@
     </section>
     <section class="table">
         <div class="container menu-container">
-            <h2 class="title-admin">Welcome Admin!</h2>
-                <a href="PHP files/burgertable.php" class="box-menu menu-box">
-                    <h1 class="menu">Burger Table</h1>
-                </a>
+            
                 <a href="PHP files/salestable.php" class="box-menu menu-box">
                     <h1 class="menu">Sales Table</h1>
                 </a>
